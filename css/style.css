@@ -1,0 +1,694 @@
+body
+{
+    font-family: "Segoe UI";
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fw-600
+{
+    font-weight: 600;
+}
+.main-color
+{
+    color: #4e4e4e;
+}
+
+.navbar
+{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+    z-index: 999;
+}
+.navbar ul li
+{
+    padding: 5px 0px 5px 17px;
+}
+.navbar-brand
+{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.navbar ul li a
+{
+    position: relative;
+}
+.navbar ul li a::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    width: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar a:hover:before, .navbar li:hover > a:before{
+    visibility: visible;
+    width: 70%;
+}
+.navbar a, .navbar a:focus {
+    transition: 0.3s;
+    position: relative;
+}
+
+
+
+.startup
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.startup .mask
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.caption
+{
+    z-index: 3;
+}
+.startup h2
+{
+    font-size: 4.5rem;
+}
+.cap-2::before
+{
+    font-size: 40px;
+    content: "";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+}
+@keyframes typing 
+{
+    1%
+    {
+        content: "D|";
+    }
+    2%
+    {
+        content: "De|";
+    }
+    3%
+    {
+        content: "Des|";
+    }
+    4%
+    {
+        content: "Desi|";
+    }
+    5%
+    {
+        content: "Desig|";
+    }
+    6%
+    {
+        content: "Design|";
+    }
+    7%
+    {
+        content: "Designe|";
+    }
+    8%
+    {
+        content: "Designer|";
+    }
+    9%
+    {
+        content: "Designe|";
+    }
+    10%
+    {
+        content: "Design|";
+    }
+    11%
+    {
+        content: "Desig|";
+    }
+    12%
+    {
+        content: "Desi|";
+    }
+    13%
+    {
+        content: "Des|";
+    }
+    14%
+    {
+        content: "De|";
+    }
+    15%
+    {
+        content: "D|";
+    }
+    16%
+    {
+        content: "De|";
+    }
+    17%
+    {
+        content: "Dev|";
+    }
+    18%
+    {
+        content: "Deve|";
+    }
+    19%
+    {
+        content: "Devel|";
+    }
+    20%
+    {
+        content: "Develo|";
+    }
+    21%
+    {
+        content: "Develop|";
+    }
+    22%
+    {
+        content: "Develope|";
+    }
+    23%
+    {
+        content: "Developer|";
+    }
+    24%
+    {
+        content: "Develope|";
+    }
+    25%
+    {
+        content: "Develop|";
+    }
+    26%
+    {
+        content: "Develo|";
+    }
+    27%
+    {
+        content: "Devel|";
+    }
+    28%
+    {
+        content: "Deve|";
+    }
+    29%
+    {
+        content: "Dev|";
+    }
+    30%
+    {
+        content: "De|";
+    }
+    31%
+    {
+        content: "F|";
+    }
+    32%
+    {
+        content: "Fr|";
+    }
+    33%
+    {
+        content: "Fre|";
+    }
+    34%
+    {
+        content: "Free|";
+    }
+    35%
+    {
+        content: "Freel|";
+    }
+    36%
+    {
+        content: "Freela|";
+    }
+    37%
+    {
+        content: "Freelan|";
+    }
+    38%
+    {
+        content: "Freelanc|";
+    }
+    39%
+    {
+        content: "Freelance|";
+    }
+    40%
+    {
+        content: "Freelancer|";
+    }
+    41%
+    {
+        content: "Freelance|";
+    }
+    42%
+    {
+        content: "Freelanc|";
+    }
+    43%
+    {
+        content: "Freelan|";
+    }
+    44%
+    {
+        content: "Freela|";
+    }
+    45%
+    {
+        content: "Freel|";
+    }
+    46%
+    {
+        content: "Free|";
+    }
+    47%
+    {
+        content: "Fre|";
+    }
+    48%
+    {
+        content: "Fr|";
+    }
+    49%
+    {
+        content: "P|";
+    }
+    50%
+    {
+        content: "Ph|";
+    }
+    51%
+    {
+        content: "Pho|";
+    }
+    52%
+    {
+        content: "Phot|";
+    }
+    53%
+    {
+        content: "Photo|";
+    }
+    54%
+    {
+        content: "Photog|";
+    }
+    55%
+    {
+        content: "Photogr|";
+    }
+    56%
+    {
+        content: "Photogra|";
+    }
+    57%
+    {
+        content: "Photograp|";
+    }
+    58%
+    {
+        content: "Photograph|";
+    }
+    59%
+    {
+        content: "Photographe|";
+    }
+    60%
+    {
+        content: "Photographer|";
+    }
+    61%
+    {
+        content: "Photographe|";
+    }
+    62%
+    {
+        content: "Photograph|";
+    }
+    63%
+    {
+        content: "Photograp|";
+    }
+    64%
+    {
+        content: "Photogra|";
+    }
+    65%
+    {
+        content: "Photogr|";
+    }
+    66%
+    {
+        content: "Photog|";
+    }
+    67%
+    {
+        content: "Photo|";
+    }
+    68%
+    {
+        content: "Phot|";
+    }
+    69%
+    {
+        content: "Pho|";
+    }
+    70%
+    {
+        content: "Ph|";
+    }
+    100%
+    {
+        content: "P|";
+    }
+}
+
+
+#about,#services,#work,#blog
+{
+    padding: 4rem;
+    background-color: #f5f5f5;
+}
+.card
+{
+    padding: 3rem 2rem;
+}
+.about-info .top p, .about-info .bottom p::first-line
+{
+    font-size: 1.1rem;
+}
+.about-info .top span
+{
+    font-size: 1rem;
+}
+.about-info .progress
+{
+    margin: 0.5rem 0 1.2rem 0;
+
+}
+.about-info .first-progress .progress-bar
+{
+    width: 85%;
+}
+.about-info .last-progress .progress-bar
+{
+    width: 90%;
+}
+.about-info .progress
+{
+    height: 0.7rem;
+    background-color: #cde1f8;
+}
+.about-right h5
+{
+    font-size: 2rem;
+}
+.about-right .border-right
+{
+    width: 100px;
+}
+.about-right .bottom p 
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.border-down
+{
+    width: 40px;
+    margin: 0 auto;
+}
+#services h2, #work h2, #blog h2
+{
+    font-size: 3rem;
+}
+#services .top,#work .top, #blog .top
+{
+    margin-bottom: 4rem;
+}
+#services .card
+{
+    border-radius: 1rem;
+    padding: 40px 20.8px;
+}
+#services i
+{
+    font-size: 40px;
+    padding: 30px 30px;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+#services i:hover
+{
+    color: white;
+    background-color: #0078ff;
+    border: 10px solid#8ec3ff;
+}
+#services .card-title
+{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+
+.banner
+{
+    padding: 8rem 0;
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .mask
+{
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.banner .caption
+{
+    z-index: 5;
+}
+.banner i
+{
+    width: 85;
+    height: 85;
+    font-size: 2rem;
+    padding: 14px 14px;
+    border: 10px solid #cde1f8;
+    border-radius: 50%;
+}
+.banner h4
+{
+    font-size: 2rem;
+}
+
+
+
+
+
+#work .card
+{
+    padding: 0 0;
+}
+#work .portfolio
+{
+    padding: 2rem 3% 1rem 4%;
+}
+#work .right i
+{
+    font-size: 2.5rem;
+    color:#0078ff
+}
+#work .left h5
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#work .left p
+{
+    font-size: 0.8rem;
+}
+#work img
+{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+}
+#work img:hover
+{
+    transform: scale(1.3);
+}
+
+
+
+.banner-2
+{
+    padding: 8rem 0;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-2 .mask
+{
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.banner-2 .caption
+{
+    z-index: 5;
+}
+.banner-2 h4
+{
+    font-size: 2rem;
+}
+.carousel-indicators button
+{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators
+{
+    top: 100%;
+}
+.carousel-inner p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.carousel-inner h5
+{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+.blog-info h5
+{
+    font-size: 1.3rem;
+    transition: all 0.5s;
+}
+.card-title:hover
+{
+    color: #0078ff;
+}
+.blog-badge
+{
+    bottom: 105%;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.blog-badge .badge
+{
+    padding: 10px 15px;
+}
+#blog .left img
+{
+    width: 32px;
+    height: 32px;
+}
+#blog .left span
+{
+    transition: all 0.5s;
+}
+#blog .left span:hover
+{
+    color: #0078ff;
+}
+
+.banner-3
+{
+    padding: 8rem 0;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-3 .mask
+{
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.banner-3 .caption
+{
+    z-index: 5;
+}
+.banner-3 h4
+{
+    font-size: 2rem;
+}
+#contact h5
+{
+    font-size: 2rem;
+}
+.form-1
+{
+    z-index: 5;
+}
+.brdr
+{
+    width: 100px;
+    height: 3;
+    background-color: #0078ff;
+}
+.area
+{
+    color: #717985;
+}
+#contact button
+{
+    padding: 10px 24px;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+    border: 5px solid transparent;
+}
+#contact button:hover
+{
+    border: 5px solid #8ec3ff;
+}
+.list
+{
+    list-style-type: none;
+}
+.info-right
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.icon-right
+{
+    font-size: 1.3rem;
+    width: 50%;
+}
+.icon-right i
+{
+    padding: 7px 7px;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.icon-right i:hover
+{
+    padding: 7px 7px;
+    border: 5px solid #8ec3ff;
+    background-color: #0078ff;
+    color: white;
+    border-radius: 50%;
+}
+
+.ending
+{
+    background-color: #0062d3;
+    border-top: 0.4px solid rgba(0, 0, 0, 0.1);
+}
